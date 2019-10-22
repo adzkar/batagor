@@ -12,7 +12,7 @@ class Cart extends Model
      * @var array
      */
     protected $fillable = [
-        'status', 'lapangan_id', 'user_id'
+        'status', 'lapangan_id', 'user_id' ,'durasi', 'tanggal_main'
     ];
 
     /**
